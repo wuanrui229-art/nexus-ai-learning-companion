@@ -1,0 +1,162 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "src": "src/pages/Ecosystem.tsx"
+    },
+    {
+      "path": "/capture",
+      "src": "src/pages/Capture.tsx"
+    },
+    {
+      "path": "/graph",
+      "src": "src/pages/Graph.tsx"
+    },
+    {
+      "path": "/chat",
+      "src": "src/pages/Chat.tsx"
+    },
+    {
+      "path": "/profile",
+      "src": "src/pages/Profile.tsx"
+    },
+    {
+      "path": "/quiz",
+      "src": "src/pages/Quiz.tsx"
+    },
+    {
+      "path": "/quiz/prepare",
+      "src": "src/pages/QuizPrepare.tsx"
+    },
+    {
+      "path": "/quiz/session",
+      "src": "src/pages/QuizSession.tsx"
+    },
+    {
+      "path": "/quiz/result",
+      "src": "src/pages/QuizResult.tsx"
+    },
+    {
+      "path": "/deep-learning",
+      "src": "src/pages/DeepLearning.tsx"
+    },
+    {
+      "path": "/learning-path",
+      "src": "src/pages/LearningPath.tsx"
+    },
+    {
+      "path": "/document-preview",
+      "src": "src/pages/DocumentPreview.tsx"
+    },
+    {
+      "path": "/learning/video",
+      "src": "src/pages/VideoLearningPage.tsx"
+    },
+    {
+      "path": "/learning/article",
+      "src": "src/pages/ArticleReadingPage.tsx"
+    },
+    {
+      "path": "/learning/pdf",
+      "src": "src/pages/PDFReadingPage.tsx"
+    },
+    {
+      "path": "/interview/position",
+      "src": "src/pages/InterviewPosition.tsx"
+    },
+    {
+      "path": "/interview/prepare",
+      "src": "src/pages/InterviewPrepare.tsx"
+    },
+    {
+      "path": "/interview/session",
+      "src": "src/pages/InterviewSession.tsx"
+    },
+    {
+      "path": "/interview/report",
+      "src": "src/pages/InterviewReport.tsx"
+    },
+    {
+      "path": "/push-history",
+      "src": "src/pages/PushHistory.tsx"
+    },
+    {
+      "path": "/share-preview",
+      "src": "src/pages/SharePreview.tsx"
+    }
+  ],
+  "components": [
+    {
+      "name": "MobileLayout",
+      "src": "src/App.tsx"
+    },
+    {
+      "name": "DataProvider",
+      "src": "src/context/DataContext.tsx"
+    },
+    {
+      "name": "Card",
+      "src": "src/components/ui/card.tsx"
+    },
+    {
+      "name": "Button",
+      "src": "src/components/ui/button.tsx"
+    },
+    {
+      "name": "Badge",
+      "src": "src/components/ui/badge.tsx"
+    },
+    {
+      "name": "Avatar",
+      "src": "src/components/ui/avatar.tsx"
+    },
+    {
+      "name": "Input",
+      "src": "src/components/ui/input.tsx"
+    },
+    {
+      "name": "Progress",
+      "src": "src/components/ui/progress.tsx"
+    },
+    {
+      "name": "Tabs",
+      "src": "src/components/ui/tabs.tsx"
+    },
+    {
+      "name": "SyncRulesModal",
+      "src": "src/components/SyncRulesModal.tsx"
+    },
+    {
+      "name": "Dialog",
+      "src": "src/components/ui/dialog.tsx"
+    },
+    {
+      "name": "ProgressTracker",
+      "src": "src/pages/Profile.tsx"
+    },
+    {
+      "name": "GoalSetupModal",
+      "src": "src/pages/Profile.tsx"
+    },
+    {
+      "name": "RadioGroup",
+      "src": "src/components/ui/radio-group.tsx"
+    },
+    {
+      "name": "Checkbox",
+      "src": "src/components/ui/checkbox.tsx"
+    },
+    {
+      "name": "Label",
+      "src": "src/components/ui/label.tsx"
+    },
+    {
+      "name": "Typography",
+      "src": "src/components/ui/typography.tsx"
+    },
+    {
+      "name": "TraceabilityInfo",
+      "src": "src/pages/QuizResult.tsx"
+    }
+  ]
+}
